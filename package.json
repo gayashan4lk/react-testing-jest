@@ -4,7 +4,10 @@
 	"description": "Learning react component testing with jest",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"build": "webpack",
+		"start": "node ./dist/server",
+		"test": "jest",
+		"test:coverage": "jest --coverage"
 	},
 	"repository": {
 		"type": "git",
